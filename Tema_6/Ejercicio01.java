@@ -3,7 +3,7 @@
  * Escribe un programa que muestre la tirada de tres dados. Se debe mostrar
  * también la suma total (los puntos que suman entre los tres dados).
  */
-package programacion.Tema_6;
+package tema6;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author laura
  */
-public class ejercicio1 {
+public class Ejercicio01 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     
@@ -34,4 +34,5 @@ public class ejercicio1 {
     System.out.println("El dado nº3: " + dado3);
     System.out.println("La suma de todos los dados es: " + total);
   }
+  
 }

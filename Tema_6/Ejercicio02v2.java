@@ -14,7 +14,7 @@ import java.util.Scanner;
  *
  * @author laura
  */
-public class ejercicio2v2 {
+public class Ejercicio02v2 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     
