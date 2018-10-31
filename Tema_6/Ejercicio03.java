@@ -39,7 +39,7 @@ public class Ejercicio03 {
       default:
       }
         
-      int n = (int)(Math.random()*13)+1;
+      int n = (int)(Math.random()*10)+1;
         
       switch(n) {
       case 11:
