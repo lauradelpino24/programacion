@@ -47,7 +47,7 @@ public class Ejercicio14 {
       
       if (mayorMenorOIgual == 3) {
         acertado = true;
-        System.out.println("¡Bien! ¡he acertado!");
+        System.out.println("Siuuuu ¡he acertado!");
       }
     } while(!acertado && (oportunidades > 0));
     
