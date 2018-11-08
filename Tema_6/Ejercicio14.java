@@ -39,12 +39,12 @@ public class Ejercicio14 {
       mayorMenorOIgual = Integer.parseInt(s.nextLine());
       oportunidades--;
 
-      if ( (mayorMenorOIgual == 1) && (oportunidades > 0) )
+      if ((mayorMenorOIgual == 1) && (oportunidades > 0)){
         minimo = numeroPensado + 1;
-      
-      if ( (mayorMenorOIgual == 2) && (oportunidades > 0) )
+      }
+      if ((mayorMenorOIgual == 2) && (oportunidades > 0)){
         maximo = numeroPensado - 1;
-      
+      }
       if (mayorMenorOIgual == 3) {
         acertado = true;
         System.out.println("Siuuuu ¡he acertado!");
