@@ -19,9 +19,7 @@ public class PrimeraTandav2 {
     System.out.print(pegaPorDelante(numero, digito));
   }
   
-  // FUNCIONES #################################################################
   
-  //EJERCICIO 1 #################################################################
   /**
    * Devuelve verdadero si un número es capicúa y falso si no
    * @param Número entero que queremos saber si es capicúa
@@ -32,7 +30,7 @@ public class PrimeraTandav2 {
     return numero == voltea(numero);
   }
   
-  //EJERCICIO 2 #################################################################
+  
   /**
    * Devuelve true si el número es primo
    * 
@@ -59,7 +57,7 @@ public class PrimeraTandav2 {
     return primo;
   }
   
-  //EJERCICIO 3 #################################################################
+  
   /**
    * Devuelve el siguiente número primo mayor que el número introducido
    * @param Número entero
@@ -79,7 +77,7 @@ public class PrimeraTandav2 {
     return numeroPrimo;
   }
   
-  //EJERCICIO 4 #################################################################
+  
   /**
    * Dada una base y un exponente devuelve la potencia
    * @param Número entero que es la base
@@ -98,7 +96,7 @@ public class PrimeraTandav2 {
     return potencia;
   }
   
-  //EJERCICIO 5 #################################################################
+  
   /**
    * Cuenta el número de dígitos de un número entero
    * @param Número entero que se quiere contar los dígitos
@@ -118,7 +116,7 @@ public class PrimeraTandav2 {
     return digitos;
   }
   
-  //EJERCICIO 6 #################################################################
+  
   /**
    * Invierte un número (le da la vuelta)
    * @param Número entero que se quiere invertir
@@ -137,7 +135,7 @@ public class PrimeraTandav2 {
     return volteado;
   }
   
-  //EJERCICIO 7 #################################################################
+  
   /**
    * Devuelve el dígito que está en la posición N
    * de un número entero
@@ -167,7 +165,7 @@ public class PrimeraTandav2 {
     return resultado;
   }
   
-  //EJERCICIO 8 #################################################################
+  
   /**
    * Devuelve la posición de la primera ocurrencia de un dígito
    * de un número entero
@@ -192,7 +190,7 @@ public class PrimeraTandav2 {
 	return -1;
   }
   
-  //EJERCICIO 9 #################################################################
+  
   /**
    * Le quita a un número N dígitos por detrás (por la derecha)
    * @param Número entero
@@ -211,7 +209,7 @@ public class PrimeraTandav2 {
 	return (numero / cifra);
   }
   
-  //EJERCICIO 10 #################################################################
+  
   /**
    * Le quita a un número N dígitos por delante (por la izquierda)
    * @param Número entero
@@ -231,7 +229,7 @@ public class PrimeraTandav2 {
 	return (voltea(numeroVolteado / cifra));
   }
   
-  //EJERCICIO 11 #################################################################
+  
   /**
    * Añade un dígito a un número por detrás
    * @param Número entero
@@ -245,7 +243,7 @@ public class PrimeraTandav2 {
 	return Integer.parseInt(numeroNuevo);
   }
 
-  //EJERCICIO 12 #################################################################
+  
   /**
    * Añade un dígito a un número por delante
    * @param Número entero
