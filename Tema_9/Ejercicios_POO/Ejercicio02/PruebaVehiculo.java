@@ -8,14 +8,16 @@
  */
 package tema9.Ejercicios_POO.Ejercicio02;
 
+import java.util.Scanner;
+
 public class PruebaVehiculo {
 
   public static void main(String[] args) {
-
+   Scanner s = new Scanner(System.in);
     int opcion = 0;
     int km;
     
-    Bicicleta bh = new Bicicleta(c);
+    Bicicleta bh = new Bicicleta("rojo");
     Coche fordRs = new Coche(390);
 
     while (opcion != 8) {
@@ -27,14 +29,17 @@ public class PruebaVehiculo {
       System.out.println("6. Ver kilometraje del coche");
       System.out.println("7. Ver kilometraje total");
       System.out.println("8. Salir");
-      System.out.println("Elige una opción (1-8): ");
+      System.out.print("Elige una opción (1-8): ");
       
-      opcion = Integer.parseInt(System.console().readLine());
+      System.out.println("");
+      
+      
+      opcion = Integer.parseInt(s.nextLine());
       
       switch (opcion) {
         case 1:
           System.out.print("¿Cuántos kilómetros quiere recorrer? ");
-          km = Integer.parseInt(System.console().readLine());
+          km = Integer.parseInt(s.nextLine());
           bh.recorre(km);
           break;
         case 2:
@@ -42,7 +47,7 @@ public class PruebaVehiculo {
           break;
         case 3:
           System.out.print("¿Cuántos kilómetros quiere recorrer? ");
-          km = Integer.parseInt(System.console().readLine());
+          km = Integer.parseInt(s.nextLine());
           fordRs.recorre(km);
           break;
         case 4:
@@ -60,7 +65,7 @@ public class PruebaVehiculo {
           System.out.println("Los vehículos llevan recorridos ");
           System.out.println(Vehiculo.getKilometrosTotales() + " Km");
         default:
-      } // switch
-    } // while
+      } System.out.println("");
+    } 
   }
 }

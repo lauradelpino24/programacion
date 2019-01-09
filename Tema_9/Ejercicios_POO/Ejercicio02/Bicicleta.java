@@ -7,6 +7,7 @@ public class Bicicleta extends Vehiculo{
   private String color;
   
   public Bicicleta(String c){
+    super();
     this.color = c;
   }
   
