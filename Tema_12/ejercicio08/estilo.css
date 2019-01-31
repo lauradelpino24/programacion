@@ -1,0 +1,9 @@
+table {
+  background-color: purple;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3vw;
+  border: 3px black dashed;
+  color: white;
+}
